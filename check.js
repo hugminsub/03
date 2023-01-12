@@ -1,17 +1,13 @@
 document.getElementById("check").addEventListener("click", sprawdzanie);
+let a4 = document.getElementById("a4");
+let b3 = document.getElementById("b3");
 function sprawdzanie() {
-if (document.getElementById("a1", "b2").checked){ 
-	alert("Dobrze")
+	document.getElementById("good").style.display= "none";
+	document.getElementById("bad").style.display= "none";
+
+if((a4.checked)&&(b3.checked)){ 
+	document.getElementById("good").style.display= "block";
 } else {
-	alert("źle");
+	document.getElementById("bad").style.display= "block";
 }
 }
-/*
-function sprawdzanie2() {
-if (document.getElementById("a1").checked){
-	alert("Dobrze")
-} else {
-	alert("źle");
-}
-}
-*/
