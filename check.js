@@ -11,7 +11,7 @@ function sprawdzanie() {
 	document.getElementById("good").style.display= "none";
 	document.getElementById("bad").style.display= "none";
 
-if((a4.checked)&&(b3.checked)&&(!a1.checked)&&(!a2.checked)&&(!a3.checked)&&(!b1.checked)&&(!b2.checked)&&(!b4.chekced)){ 
+if(a4.checked&& b3.checked && !a1.checked && !a2.checked && !a3.checked && !b1.checked && !b2.checked && !b4.checked ){ 
 	document.getElementById("good").style.display= "block";
 } else {
 	document.getElementById("bad").style.display= "block";
